@@ -1,0 +1,18 @@
+{
+  "name": "system-lite",
+  "version": "1.0.0",
+  "description": "Lightweight system.js implementation",
+  "main": "system-lite.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markusjohnsson/system-lite.git"
+  },
+  "author": "Markus Johnsson <markus.johnsson@infviz.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markusjohnsson/system-lite/issues"
+  },
+  "homepage": "https://github.com/markusjohnsson/system-lite#readme"
+}
