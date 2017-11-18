@@ -13,6 +13,10 @@ var System;
         };
     }
     System.register = register;
+    function registerExternal(name, mod) {
+        modules[name] = mod;
+    }
+    System.registerExternal = registerExternal;
     function require(name) {
         if (name in modules)
             return modules[name];

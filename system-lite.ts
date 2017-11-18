@@ -27,6 +27,10 @@ namespace System {
         };
     }
 
+    export function registerExternal(name: string, mod: any) {
+        modules[name] = mod;
+    }
+
     export function require(name: string) {
         if (name in modules)
             return modules[name];

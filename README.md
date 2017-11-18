@@ -42,3 +42,19 @@ And at the end of your `<body>`, require your startup module:
     </script>
 </body>
 ```
+
+## Externals
+
+If you need to load external modules you can use `registerExternal`:
+
+```html
+
+    <script src="react.js"></script>
+    <script src="react-dom.js"></script>
+    <script>
+        System.registerExternal('react', React);
+        System.registerExternal('react-dom', ReactDOM);
+        System.require('index');
+    </script>
+</body>
+```
